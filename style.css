@@ -9,7 +9,7 @@
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-houver: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(/assets/moon-stars.svg);
+  --switch-bg-url: url(./moon-stars.svg);
 }
 
 .light {
@@ -19,7 +19,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-houver: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(/assets/sum.svg);
+  --switch-bg-url: url(./sum.svg);
 }
 
 body {
@@ -67,7 +67,6 @@ body * {
   margin-top: 8px;
 }
 #switch {
-  border: 1px solid red;
   position: relative;
   margin: 4px auto;
 }
@@ -89,7 +88,7 @@ body * {
   left: initial;
 }
 
-switch span {
+#switch span {
   display: block;
   width: 64px;
   height: 24px;
